@@ -76,8 +76,8 @@ h6,
 }
 
 #logo {
-    height: 30px;
-    width: 30px;
+    height: 100px;
+    width: 100px;
     border-radius: 20px;
     border-radius: 50%; 
 }
@@ -130,6 +130,7 @@ h6,
     height: auto;
     margin-top: 70px;
     border-radius: 20px;
+    border-radius: 50%;
 }
 
 .portfolio {
