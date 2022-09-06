@@ -1,0 +1,262 @@
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    background: url(cheetahfordp.jpg);
+}
+
+.navbar a {
+    font-family: "Poppins", sans-serif;
+    color: #ff5100fd;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    color: #ff5100fd;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ff5100fd;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+}
+
+h5,
+.h5 {
+    font-size: 16px;
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+    color: white;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+#home {
+    background-image: radial-gradient(rgba(236, 141, 32, 0.8), rgba(0, 0, 0, 0.8)), url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row {
+    margin: initial!important;
+}
+
+.bio {
+    max-width: 500px;
+    margin-top: 90px;
+    padding: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.bio a {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #FFA833;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bio a:hover {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #f1d1a7;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.row img {
+    width: 300px;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.portfolio {
+    background-color: rgb(255, 253, 208);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.portfolio .lnr {
+    font-size: 50px;
+    color: rgb(163, 55, 5);
+}
+
+.portfolio h1 {
+    text-align: center;
+    color: #ff5100fd !important;
+    padding-bottom: 12px;
+}
+
+.portfolio h1::after {
+    content: '';
+    background: rgba(236, 141, 32, 0.8);
+    display: block;
+    height: 7px;
+    width: 300px;
+    margin: 20px auto 5px;
+    border-radius: 5px;
+}
+
+.portfolio a {
+    width: auto;
+    display: block;
+    color: #ff5100fd;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portfolio p a:hover {
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    text-decoration: none;
+}
+
+#contacts {
+    background-color: rgb(252, 223, 130);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#contacts h2 {
+    text-align: center;
+    color: #ff5100fd;
+    padding-bottom: 12px;
+}
+
+#contacts h2::after {
+    content: '';
+    background: rgba(236, 141, 32, 0.8);
+    display: block;
+    height: 7px;
+    width: 250px;
+    margin: 20px auto 5px;
+    border-radius: 5px;
+}
+
+.contact-area {
+    background: beige;
+}
+
+#contactli {
+    text-align: center;
+}
+
+#contacts a {
+    color: #ff5100fd;
+    background: #FFA833;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contacts a:hover {
+    color: #ff5100fd;
+    background: #f1d1a7;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: rgb(52, 58, 64);
+    height: 30px;
+    color: bisque;
+}
+
+.fa-heart-o {
+    margin: 3px;
+    color: red;
+}
+
+@media (max-width: 767px) {
+    .no-flex-xs {
+        display: block !important;
+    }
+}
+
+.messagebox {
+      width: 320px;
+      height: 420px;
+      background: #000;
+      color: #fff;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50% -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+}
+
+.avator {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50px)
+
+}
