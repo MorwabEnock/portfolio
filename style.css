@@ -79,6 +79,7 @@ h6,
     height: 30px;
     width: 30px;
     border-radius: 20px;
+    border-radius: 50%; 
 }
 
 #home {
